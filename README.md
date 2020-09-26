@@ -1,12 +1,15 @@
-# process-mining-with-prom
+# Process-mining-with-prom
 
-## Process Mining With Prom
+## Overview
 
 In this project, the process in a road traffic fine management was mined with the Prom Tool
 
+## Environment Setup
 Event Log: Public data from the future learn process mining with Prom course.
 
-Algorithm:
+Tool: Prom Lite 1.2
+
+### Algorithm:
 Inductive miner was used to mine the process as it guarantees sound process models. 
 
 Conformance Check:
