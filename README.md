@@ -17,13 +17,19 @@ Method: Conformance checked by replaying the event log on the process model disc
 
 ### Result:
 1. Algorithm: 
+
 The inductive miner applied to event log, because it guarantees sound process models. A sound process model discovered.
 
 2. Settings: 
+
 a. Setting for the process discovery, 
+
     Variant - Inductive Miner-infrequent(iMf)
+    
     Noise Threshold - 0.02 chosen at first, 0.00 chosen second time.
+    
     Event Classifier: Concept:name
+    
     First, the model was represented with [process tree](https://github.com/Folasade/process-mining-with-prom/blob/master/images/process-tree.jpg), later converted to petrinet notations.
 
 b. Setting for Replay,
