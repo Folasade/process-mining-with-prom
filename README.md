@@ -1,6 +1,6 @@
 # process-mining-with-prom
 
-Process Mining With Prom
+## Process Mining With Prom
 
 In this project, the process in a road traffic fine management was mined with the Prom Tool
 
