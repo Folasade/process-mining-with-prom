@@ -10,38 +10,38 @@ Event Log: Public data from the future learn process mining with Prom course.
 Tool: Prom Lite 1.2
 
 ### Algorithm:
-Inductive miner was used to mine the process as it guarantees sound process models. 
+Inductive miner chosen to mine the process as it guarantees sound process models. 
 
-Conformance Check:
-Method for conformance check was replaying the event log on the process model discovered.
+### Conformance Check:
+Method: Conformance checked by replaying the event log on the process model discovered.
 
-Result:
+### Result:
 1. Algorithm: 
-The inductive miner applied to even log, because it guarantees sound process models. A sound process model discovered
+The inductive miner applied to event log, because it guarantees sound process models. A sound process model discovered.
 
 2. Settings: 
 a. Setting for the process discovery, 
-Variant - Inductive Miner-infrequent(iMf)
-Noise Threshold - 0.02 chosen at first, 0.00 chosen second time.
-Event Classifier: Concept:name
-First, the model was represented with process tree, later converted to petrinet notations.
+    Variant - Inductive Miner-infrequent(iMf)
+    Noise Threshold - 0.02 chosen at first, 0.00 chosen second time.
+    Event Classifier: Concept:name
+    First, the model was represented with [process tree](https://github.com/Folasade/process-mining-with-prom/blob/master/images/process-tree.jpg), later converted to petrinet notations.
 
 b. Setting for Replay,
-Transitions were mapped to event classes
-Classifier - MXML Legacy Classifier
-The purpose of the replay - To measure fitness
-Improper Completion - penalized
-Move on node and move on log cost set to 1
+    Transitions were mapped to event classes
+    Classifier - MXML Legacy Classifier
+    The purpose of the replay - To measure fitness
+    Improper Completion - penalized
+    Move on node and move on log cost set to 1
 
 3. Result of the discovery algorithm: 
-A model is discovered that describes the data. A petrinet notation is used to display the model. 
-The transitions are shown in squares, representing activities taking place in the road traffice fine management. 
-It has a start place and final marking. 
-It has silent transitions.
-A different model is discovered when Noise threshold is set to 0.00
+    A model is discovered that describes the data. A petrinet notation is used to display the model. 
+    The transitions are shown in squares, representing activities taking place in the road traffice fine management. 
+    It has a start place and final marking. 
+    It has silent transitions.
+    A different model is discovered when Noise threshold is set to 0.00
 
-Process model with noise threshold set to 0.02 
-Process model with noise threshold set to 0.00
+    Process model with noise threshold set to 0.02 
+    Process model with noise threshold set to 0.00
     
 4. Conformance checking is applied on the discovered process model and the input event log, result is as follows:
 
