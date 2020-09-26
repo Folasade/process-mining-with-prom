@@ -70,14 +70,15 @@ b. Setting for Replay,
    
    * The global statistic shows the trace fitness, how well the data aligns with the model, the data complies 99% with the model. It has a fitness of 0.99168 
 
-   Result with Noise threshold set to 0.00 shows perfect log fitness
-   
-   Global statistics showed that the data complies 100% with the model, it has a fitness of 1
-
    [Replay with noise threshold 0.02](https://github.com/Folasade/process-mining-with-prom/blob/master/images/replay-with-nt0.02.jpg)
    
    [Trace fitness with noise threshold 0.02](https://github.com/Folasade/process-mining-with-prom/blob/master/images/tracefitness-with-nt0.02.jpg)
- 
+  
+  
+  ## Conformance with Noise Threshold set to 0.00
+   
+   Result with Noise threshold set to 0.00 shows perfect log fitness. Global statistics showed that the data complies 100% with the model, it has a fitness of 1
+
    [Replay with noise threshold 0.00](https://github.com/Folasade/process-mining-with-prom/blob/master/images/replay-with-nt0.00.jpg)
    
    [Trace fitness with noise threshold 0.00](https://github.com/Folasade/process-mining-with-prom/blob/master/images/tracefitness-with-nt0.00.jpg)
