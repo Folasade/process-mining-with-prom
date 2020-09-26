@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project, the process in a road traffic fine management was mined with the Prom Tool
+In this project, the process of a road traffic fine management was mined with the Prom Tool
 
 ## Environment Setup
 Event Log: Public data from the future learn process mining with Prom course.
