@@ -1,4 +1,4 @@
-# Process-mining-with-prom
+# Process-mining-with-ProM
 
 ## Overview
 
